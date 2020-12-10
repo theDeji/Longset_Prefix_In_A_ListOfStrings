@@ -13,7 +13,7 @@ def longestCommonPrefix(wordList):
             if word[i] != c:
                 return prefix[:i]
 
-
+##driver code
 test = ["flower", "flow", "flight"]
 
 print(longestCommonPrefix(test))
